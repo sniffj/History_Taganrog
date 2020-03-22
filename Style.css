@@ -1,0 +1,26 @@
+html{
+    background-color: lightblue;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: lightsalmon;
+}
+.el{
+    background-color: lightgrey;
+    padding: 10px;
+    flex-basis: 130px;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.blocks{
+    flex-basis: 300px;
+    margin: 1%;
+    background-color: lightsteelblue;
+}
