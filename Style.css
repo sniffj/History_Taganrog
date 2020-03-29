@@ -1,26 +1,43 @@
-html{
-    background-color: lightblue;
+*{
+    padding: 0;
+    margin: 0;
 }
-header nav{
+
+html, body{
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: lightsalmon;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.el{
-    background-color: lightgrey;
-    padding: 10px;
-    flex-basis: 130px;
-    text-align: center;
-}
-main{
+
+header{
+    background-color: lightcyan;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.blocks{
-    flex-basis: 300px;
-    margin: 1%;
-    background-color: lightsteelblue;
+
+footer{
+    background-color: lightskyblue;
+}
+
+.el_menu{
+    font-size: 1.2em;
+    margin: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+header>a{
+    flex-basis: 250px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    flex-grow: 1;
+}
+
+.el_menu_2{
+    font-size: 1.2em;
+    margin: 5px 10px 5px 10px;
+    border-radius: 5px;
 }
