@@ -12,7 +12,7 @@ html, body{
 }
 
 header{
-    background-color: lightcyan;
+    background-color: grey;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -26,11 +26,18 @@ footer{
     font-size: 1.2em;
     margin: 5px 10px 5px 10px;
     border-radius: 5px;
+    flex-grow: 1;
+    font-weight: bolder;
+}
+
+#qaz{
+    flex-grow: 98;
+text-align: center;
 }
 
 header>a{
     flex-basis: 250px;
-    text-align: left;
+    text-align: right;
     text-decoration: none;
     color: white;
     flex-grow: 1;
