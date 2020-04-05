@@ -11,8 +11,14 @@ html, body{
     justify-content: space-between;
 }
 
+h5{
+    text-align: right;
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+}
+
 header{
-    background-color: grey;
+    background-color: gray;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -31,7 +37,7 @@ footer{
 }
 
 #qaz{
-    flex-grow: 98;
+    flex-grow: 105;
 text-align: center;
 }
 
@@ -39,7 +45,7 @@ header>a{
     flex-basis: 250px;
     text-align: right;
     text-decoration: none;
-    color: white;
+    color: rgb(41, 41, 41);
     flex-grow: 1;
 }
 
@@ -47,4 +53,8 @@ header>a{
     font-size: 1.2em;
     margin: 5px 10px 5px 10px;
     border-radius: 5px;
+}
+
+html{
+    background-color: #E7B2A5;
 }
